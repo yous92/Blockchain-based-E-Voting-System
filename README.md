@@ -40,16 +40,16 @@ Install MetaMask extension (https://metamask.io/download.html) and make sure to 
 ## Screenshots of the app:
 
 Homepage of the application:
-![](screenshots/homepage.PNG)
+![](screenshots/homepage.png)
 
 Voter login with MataMask:
 
-![](screenshots/voter_login.PNG)
+![](screenshots/voter_login.png)
 
 List of candidates for the election:
 
-![](screenshots/candidate_list.PNG)
+![](screenshots/candidate_list.png)
 
 Successful voting scenario:
 
-![](screenshots/successful_voting.PNG)
+![](screenshots/successful_voting.png)
