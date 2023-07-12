@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*{
+  font-family: 'Bruno Ace SC', cursive;
+  color : white
+}
+
+body{
+  background-color: black;
+}
+
+
+@layer components {
+  
+  .btn-green {
+    @apply px-7 py-2 rounded-md ;
+  }
+  .btn-red{
+    @apply bg-red-500 px-2 py-7 rounded-md text-creem-green;
+  }
+  .btn-border-green {
+    @apply border-2 px-7 py-2 rounded-md  cursor-pointer  hover:text-black;
+  }
+  .bg-effect {
+    @apply rounded-lg border border-gray-300 shadow-lg;
+  }
+  .inputs {
+    @apply bg-transparent outline-none w-full;
+  }
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.welcome-message {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0069d9;
+}
+
+
+.connected-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.connected-header {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.connected-account {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.connected-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.connected-button:hover {
+  background-color: #0069d9;
+}
+
+.connected-contract-address {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+.candidates-table {
+  border-collapse: collapse;
+  width: 50%;
+  text-align:center;
+}
+
+.candidates-table th, .candidates-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.candidates-table th {
+}
+
+input[type=number] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
